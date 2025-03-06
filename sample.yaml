@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jswan-pod
+  namespace: jswan-ns
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jswan-pod
+  template:
+    metadata:
+      labels:
+        app: jswan-pod
+    spec:
+      containers:
+      - name: jswan-flask
+        image: 483106397391.dkr.ecr.ap-northeast-2.amazonaws.com/jswan-flask:13.0
+      imagePullSecrets:
+      - name: ecr-jswan-secret
