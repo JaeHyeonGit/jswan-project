@@ -1,0 +1,29 @@
+[
+  {
+    "이름": "장시영",
+    "사진": {
+      "출근": "/static/1_siyoung.png",
+      "반차": "/static/2_siyoung.png",
+      "연차": "/static/3_siyoung.png"
+    },
+    "상태": "연차"
+  },
+  {
+    "이름": "조현희",
+    "사진": {
+      "출근": "/static/1_hh.png",
+      "반차": "/static/2_hh.png",
+      "연차": "/static/3_hh.png"
+    },
+    "상태": "출근"
+  },
+  {
+    "이름": "최명근",
+    "사진": {
+      "출근": "/static/1_jw.png",
+      "반차": "/static/2_jw.png",
+      "연차": "/static/3_jw.png"
+    },
+    "상태": "연차"
+  }
+]
