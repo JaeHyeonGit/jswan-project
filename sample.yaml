@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: jswan-flask
-        image: 483106397391.dkr.ecr.ap-northeast-2.amazonaws.com/jswan-flask:13.0
+        image: ""
       imagePullSecrets:
       - name: ecr-jswan-secret
